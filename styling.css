@@ -1,0 +1,191 @@
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+.instagram {
+	background: red;
+	color: white;
+}
+.phone {
+		background: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;
+		margin:0;height:2000px;}
+
+.mySlides {display: none;
+			text-align: center;
+}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: fixed;
+  position: auto;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.topnav {
+	overflow: auto;
+	background-color: #FFA500;
+	width: fixed;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 15px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #FFA500;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #FFA500;
+	color: white;
+}
+
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+#myBtn:hover {
+	background-color: #FFA500;
+}
+
+body {
+	margin: 0;
+}
+
+img[id="wall"] { 
+	opacity: 0.6;
+}
+
+.container {
+	position: initial;
+	text-align: center;
+	color: white;
+	font-family: Impact;
+	font-size: 50px;
+}
+
+.banner {
+	position: absolute;
+	top: 20%;
+	left: 22%;
+	letter-spacing: 10px;
+	line-height: 1.0;
+	padding :20px;
+	border-top: 5px solid gray;
+	border-bottom: 5px solid gray;
+}
+
+h1 {
+	text-align: center;
+	color: #FFA500;
+	font-family: Arial;
+	font-size: 50px;
+}
+
+h2 {
+	text-align: center;
+	color: #F70D1A;
+	font-family: Arial;
+	font-size: 40px;
+	text-decoration: none;
+}

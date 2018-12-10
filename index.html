@@ -2,45 +2,6 @@
 <html>
 <head>
 <meta charset="UTF-8"/>
-<meta name="viewport" content="width-device-width, initial-scale=1">
-<title>Home</title>
-	 
-<link rel="stylesheet" text="text/css" href="test.css">
-	
-</head>
-
-<body>
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="IceCream.html">Ice Cream</a>
-  <a href="projects.html">Projects</a>
-  <a href="#">Contact</a>
-</div>
-
-<div id="main">
- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-</div>
-
-	<h1 style="color:silver; text-align:center; ">Peace be Upon You!</h1>
-	<center><img src="Moji.jpg" width="150" height="150" ></center>
-	<p style="color:silver; text-align:center; font-size:150%;"> Hi! I'm Junaid Suleman.</p>
-	<p style="color:silver; text-align:center; font-size:120%;">I am an Entry Level Front End Web Developer. I have familiarity in HTML, CSS, JavaScript.</p>
-	
-	
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "100%";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-</body>
-</html><!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Home</title>
 	 
@@ -55,7 +16,7 @@ function closeNav() {
 </div>
 
 <div id="main">
- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+ <span style="font-size:30px;cursor:pointer; color:silver" onclick="openNav()">&#9776;</span>
 </div>
 	<h1 style="color:silver; text-align:center; ">Peace be Upon You!</h1>
 	<center><img src="Moji.jpg" width="150" height="150" ></center>
@@ -68,8 +29,12 @@ function closeNav() {
 	</div>
 	<br/>
 	
-	<center><a href="mailto:jsuleman@live.com"><i class="fa fa-envelope" style="font-size:48px; color:silver"></a></i></center>
-
+	<div class="logo">
+	<a href="mailto:jsuleman@live.com"><i class="fa fa-envelope" style="font-size:48px; color:silver"></a></i>
+	<a href="https://github.com/coyote65/portfolio"><i class="fa fa-github" style="font-size:48px; color:silver"></a></i>
+	<a href=""><i class="fa fa-instagram" style="font-size:48px; color:silver"></a></i>
+	</div>
+	
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "100%";
